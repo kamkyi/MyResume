@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+::-webkit-scrollbar{
+	  display: none;
+}
+.main-img{
+	background: url(../images/web_developer.jpeg);
+	width: 100vw;
+	height: 40vw;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-shadow: 3px 3px 10px black;
+
+}
+
+.section-one,.section-two,.section-three{
+	height: 30vw;
+	width: 100vw;
+}
+.section-one{
+		background: white;
+}
+.section-two{
+      background: linear-gradient(to right,cyan,#694C44);
+}
+.footer{
+	 background: linear-gradient(to right,#C7D3DD,#C7D3DD);
+     height: 400px;
+     width:100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-shadow: 2px 2px 4px white;
+}
+.menu{
+	width: 100vw;
+	height: 100px;
+	position: absolute;
+	background: rgba(0,0,0,.4);
+}
+.logo{
+	height: 100px;
+	width: 300px;
+	text-align: center;
+    font-size: 30px;
+	line-height: 100px;
+	color: white;
+	position: relative;
+	float: left;
+}
+nav{
+	float: right;
+	position: relative;
+	color: white;
+}
+
+nav ul{
+	list-style-type: none;
+	line-height: 100px;
+}
+ul li{
+	float: right;
+	width: 100px;
+}
+.left,.right{
+	height: 100%;
+	width: 50vw;
+	position: relative;
+	
+}
+.left{
+	float: left;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.right{
+	
+	float: right;
+	color: black;
+	display: flex;flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.who-am-i{
+	 margin:0px 50px 0px 50px;
+}
+.center-text{
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.resume{
+	background: rgba(0,0,0,.4);
+	padding: 10px 30px 10px 30px;
+	border-radius:10px;
+	margin-top: 10px;
+	color: white;
+	cursor: pointer;
+	border:1px solid black;
+}
+
+.img-me{
+	   background: url(../images/code.jpg);
+	   height: 20vw;
+	   background-position: center;
+	   background-size: cover;
+	   width: 40vw;
+}
